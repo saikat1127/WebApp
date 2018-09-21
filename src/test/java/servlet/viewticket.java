@@ -38,6 +38,7 @@ public class viewticket extends HttpServlet {
 					out.println("</style>");
 					out.println("</head");
 					out.println("<body>");
+			
 
 					out.println("<div id="+"home"+">");
 					out.println("<a href="+"avnhomepage.jsp"+">Home</a>&nbsp;&nbsp;");
