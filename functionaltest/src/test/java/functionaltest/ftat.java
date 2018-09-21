@@ -42,7 +42,7 @@ public class ftat {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
-	@Test(priority = 1)
+	/*@Test(priority = 1)
 	public void viewrepairticket() throws Exception {
 		WebElement welcome = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//h2[text()='WELCOME TO YOUR ACCOUNT OVERVIEW']")));
@@ -95,7 +95,7 @@ public class ftat {
 		driver.findElement(By.xpath("//button[text()='Cancel']")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//h2[text()='Repair Ticket Page']")).isDisplayed();
-	}
+	}*/
 
 	@Test(priority = 4)
 	public void logouttest() {
